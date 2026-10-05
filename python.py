@@ -41,6 +41,12 @@ while True:
         rounds += 1
         continue
     computer = random.randint(0, 2)
+    if computer == 0:
+        print("pocitac hraje rock")
+    elif computer == 1:
+        print("pocitac hraje paper")
+    else:
+        print("pocitac hraje scissors")
     if user == computer:
         print("remiza")
         ties += 1
